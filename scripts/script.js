@@ -14,9 +14,11 @@ function showUsernameMessage(userName) {
     
 
 }
+// declare the variable "password" globally, so that the second function has access to it.
 // because there is no assignment for the variable "password", its true value is equal to undefined.
 let password;
 
+// create a function for the if statement with the parameter of password that shows a message
 function showPasswordMessage(password) {
     if (password === "TheMaster") {
         alert(`Welcome!`);
