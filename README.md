@@ -1,7 +1,7 @@
 # loginAuthentication
 Explaination of coding login Authentication project:
 
-I began the project by making userNAme a constant variable, which is also aglobal variable. It is constant because it will stay the same. It is global so that it can be reached by more than one function or other parts of my code if necessary.
+I began the project by making userName a constant variable, which is also aglobal variable. It is constant because it will stay the same. It is global so that it can be reached by more than one function or other parts of my code if necessary.
 
 I created a function for the first if statement, which determined what would happen if a certain username was typed in. The parameter is userName because that is what is being tested in the first if statement. The first and third part of my username if statement show alerts. THe second part of my userName if statment shows a prompt to enter a password because the user is an administrator. 
 
